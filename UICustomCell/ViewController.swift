@@ -42,6 +42,21 @@ class ViewController: UIViewController {
     view.addSubview(tableView)
     tableView.frame = view.bounds
   }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+      let colorGradient = CAGradientLayer()
+        colorGradient.colors = [UIColor(red: 0.96, green: 0.95, blue: 0.90, alpha: 1.00).cgColor, UIColor(red: 0.99, green: 0.80, blue: 0.00, alpha: 1.00).cgColor]
+        colorGradient.locations = [0.35, 1.00]
+        colorGradient.startPoint = CGPoint(x: 0.0, y: 0.0)
+        colorGradient.endPoint = CGPoint(x: 0.0, y: 1.0)
+        colorGradient.frame = CGRect(x: 0.0, y: 0.0, width: self.view.frame.size.width, height: self.view.frame.size.height)
+        
+        self.view.layer.insertSublayer(colorGradient, at: 0)
+        
+        
+        }
   
   //MARK: Actions
   
