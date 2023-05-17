@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     tableView.register(AvatarCustomCell.self, forCellReuseIdentifier: AvatarCustomCell.identifier)
     tableView.register(RankingCustomCell.self, forCellReuseIdentifier: RankingCustomCell.identifier)
+    tableView.register(PowerCustomCell.self, forCellReuseIdentifier: PowerCustomCell.identifier)
     
     tableView.delegate = self
     tableView.dataSource = self
@@ -80,7 +81,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
       case .Ranking:
         cell = tableView.dequeueReusableCell(withIdentifier: RankingCustomCell.identifier, for: indexPath) as! RankingCustomCell
       case .Power:
-        cell = UITableViewCell()
+        cell = tableView.dequeueReusableCell(withIdentifier: PowerCustomCell.identifier, for: indexPath) as! PowerCustomCell
+        
     }
     cell.backgroundColor = .clear
     cell.selectionStyle = .none

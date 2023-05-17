@@ -15,6 +15,7 @@
 		2039BE342A0F0CEB00520783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2039BE322A0F0CEB00520783 /* LaunchScreen.storyboard */; };
 		2039BE3C2A0F130000520783 /* AvatarCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039BE3B2A0F130000520783 /* AvatarCustomCell.swift */; };
 		2039BE3E2A0F15DF00520783 /* RankingCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2039BE3D2A0F15DF00520783 /* RankingCustomCell.swift */; };
+		5B1A1CE72A142BF700EB1682 /* PowerCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1A1CE62A142BF700EB1682 /* PowerCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2039BE352A0F0CEB00520783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2039BE3B2A0F130000520783 /* AvatarCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCustomCell.swift; sourceTree = "<group>"; };
 		2039BE3D2A0F15DF00520783 /* RankingCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingCustomCell.swift; sourceTree = "<group>"; };
+		5B1A1CE62A142BF700EB1682 /* PowerCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2039BE272A0F0CEA00520783 /* AppDelegate.swift */,
 				2039BE292A0F0CEA00520783 /* SceneDelegate.swift */,
 				2039BE2B2A0F0CEA00520783 /* ViewController.swift */,
+				5B1A1CE62A142BF700EB1682 /* PowerCustomCell.swift */,
 				2039BE3B2A0F130000520783 /* AvatarCustomCell.swift */,
 				2039BE3D2A0F15DF00520783 /* RankingCustomCell.swift */,
 				2039BE2D2A0F0CEA00520783 /* Main.storyboard */,
@@ -146,6 +149,7 @@
 			files = (
 				2039BE3E2A0F15DF00520783 /* RankingCustomCell.swift in Sources */,
 				2039BE2C2A0F0CEA00520783 /* ViewController.swift in Sources */,
+				5B1A1CE72A142BF700EB1682 /* PowerCustomCell.swift in Sources */,
 				2039BE282A0F0CEA00520783 /* AppDelegate.swift in Sources */,
 				2039BE2A2A0F0CEA00520783 /* SceneDelegate.swift in Sources */,
 				2039BE3C2A0F130000520783 /* AvatarCustomCell.swift in Sources */,
