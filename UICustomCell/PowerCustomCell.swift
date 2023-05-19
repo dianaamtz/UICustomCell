@@ -253,7 +253,12 @@ class PowerCustomCell: UITableViewCell {
                   progressView6.leadingAnchor.constraint(equalTo: viewContainer5.leadingAnchor).isActive = true
                   progressView6.trailingAnchor.constraint(equalTo:viewContainer5.trailingAnchor).isActive = true
 
-     
+     randomNumber(progressView: progressView1)
+        randomNumber(progressView: progressView2)
+        randomNumber(progressView: progressView3)
+        randomNumber(progressView: progressView4)
+        randomNumber(progressView: progressView5)
+        randomNumber(progressView: progressView6)
     }
     
     required init?(coder: NSCoder) {
@@ -261,5 +266,10 @@ class PowerCustomCell: UITableViewCell {
         
     }
     
+    func randomNumber(progressView: UIProgressView) {
+        let progress = Float.random(in: 0.0...1.0)
+        progressView.setProgress(progress, animated: true)
+      print(progress)
+    }
     
 }
